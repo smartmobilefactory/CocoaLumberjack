@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc   = true
 
-  s.preserve_paths = 'Framework/Lumberjack/CocoaLumberjack.modulemap'
+  s.preserve_paths = 'Classes/CocoaLumberjack.h', 'Classes/DD*.h', 'Framework/Lumberjack/CocoaLumberjack.modulemap'
   s.module_map = 'Framework/Lumberjack/CocoaLumberjack.modulemap'
   s.public_header_files  = 'Classes/CocoaLumberjack.h', 'Classes/DD*.h'
 
