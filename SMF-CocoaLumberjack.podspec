@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'CocoaLumberjack'
+  s.name     = 'SMF-CocoaLumberjack'
   s.module_name = 'CocoaLumberjack'
   s.version  = '3.3.0'
   s.license  = 'BSD'
